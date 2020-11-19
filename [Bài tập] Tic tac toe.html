@@ -7,7 +7,11 @@
 <style>
     table {
         margin: 2px auto;
-        border: 2px dashed black;
+        border: 2px dashed red;
+    }
+
+    th{
+        text-align: center;
     }
 
     h3 {
@@ -27,8 +31,7 @@
 <body>
 <h3>Tic Tac Toe</h3>
 <table id="carogame"></table>
-<div><button onclick="changeValue()">Change Value</button></div>
-
+<div id="btn"><button onclick="changeValue()">Change Value</button></div>
 
 <!--<script>
     let b = document.getElementById("carogame");
@@ -70,7 +73,7 @@
     let bData = [];
     let board = "";
     for (let i = 0; i < 10; i++) {
-        bData[i] = new Array("<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>");
+        bData[i] = new Array("<th>( . )</th>", "<th>( . )</th>", "<th>( . )</th>", "<th>( . )</th>", "<th>( . )</th>", "<th>( . )</th>", "<th>( . )</th>", "<th>( . )</th>", "<th>( . )</th>", "<th>( . )</th>");
     }
     for (let i = 0; i < 10; i++) {
         board += "<tr>";
@@ -79,20 +82,34 @@
         }
         board += "</tr>";
     }
-    showBoard();
+    document.getElementById('carogame').innerHTML = board;
 
     function showBoard(){
         board = '';
         board += "<tr>";
-
-        document.getElementById('carogame').innerHTML = '';
+        for (let i = 0; i < 10; i++) {
+            board += "<tr>";
+            for (let j = 0; j < 10; j++) {
+                board += bData[i][j];// "&nbsp;&nbsp;";
+            }
+            board += "</tr>";
+        }
+        board += "</tr>";
         document.getElementById('carogame').innerHTML = board;
     }
 
-    function changeValue() {
+    function changeValue(str) {
         let positionX = +prompt("X: ");
         let positionY = +prompt("Y: ");
-        bData[positionX][positionY] = "<td> X </td>";
+
+        if (str == 'X'){
+            bData[positionX][positionY] = "<th> X </th>";
+            document.getElementById('btn').innerHTML = "<button onclick=\"changeValue(\'O\')\">Change Value</button>";
+        }
+        else{
+            bData[positionX][positionY] = "<th> O </th>";
+            document.getElementById('btn').innerHTML = "<button onclick=\"changeValue(\'X\')\">Change Value</button>";
+        }
         showBoard();
     }
 
