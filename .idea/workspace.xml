@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="222264fa-dc5f-4aa6-bf49-617e523c29ac" name="Default Changelist" comment="" />
+    <list default="true" id="222264fa-dc5f-4aa6-bf49-617e523c29ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[Bài tập] Tic tac toe.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Tic tac toe.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kUV8l0P5ipcm1ibbiOCzchRxI9" />
   <component name="ProjectViewState">
@@ -41,7 +47,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605755000583</updated>
       <workItem from="1605755001679" duration="5643000" />
-      <workItem from="1605764667489" duration="13924000" />
+      <workItem from="1605764667489" duration="13987000" />
+      <workItem from="1605783614315" duration="6970000" />
     </task>
     <servers />
   </component>
