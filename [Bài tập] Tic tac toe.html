@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Tic tac toe</title>
+</head>
+<style>
+    table {
+        margin: 2px auto;
+        border: 2px dashed black;
+    }
+
+    h3 {
+        width: 100px;
+        margin: 5px auto;
+    }
+
+    button {
+        width: max-content;
+    }
+
+    div{
+        margin: 10px 0;
+        text-align: center;
+    }
+</style>
+<body>
+<h3>Tic Tac Toe</h3>
+<table id="carogame"></table>
+<div><button onclick="changeValue()">Change Value</button></div>
+
+
+<!--<script>
+    let b = document.getElementById("carogame");
+
+    let board = [];
+    let data = "";
+    for (let i = 0; i < 5; i++) {
+        board[i] = new Array(0, 0, 0, 0, 0);
+    }
+
+    for (let i = 0; i < 5; i++) {
+        data += "<br/>";
+        for (let j = 0; j < 5; j++) {
+            data += board[i][j] + "&nbsp;&nbsp;";
+        }
+    }
+
+    data += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>"
+    b.innerHTML = data;
+
+    function changeValue() {
+        let positionX = prompt("X: ");
+        let positionY = prompt("Y: ");
+        data = "";
+        board[positionX][positionY] = "x";
+        for (let i = 0; i < 5; i++) {
+            data += "<br/>";
+            for (let j = 0; j < 5; j++) {
+                data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+            }
+        }
+        data += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>"
+        b.innerHTML = "<hr/>" + data;
+    }
+</script>-->
+<script>
+    let bTag = document.getElementById('carogame');
+
+    let bData = [];
+    let board = "";
+    for (let i = 0; i < 10; i++) {
+        bData[i] = new Array("<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>", "<td>( . )</td>");
+    }
+    for (let i = 0; i < 10; i++) {
+        board += "<tr>";
+        for (let j = 0; j < 10; j++) {
+            board += bData[i][j];// "&nbsp;&nbsp;";
+        }
+        board += "</tr>";
+    }
+    showBoard();
+
+    function showBoard(){
+        board = '';
+        board += "<tr>";
+
+        document.getElementById('carogame').innerHTML = '';
+        document.getElementById('carogame').innerHTML = board;
+    }
+
+    function changeValue() {
+        let positionX = +prompt("X: ");
+        let positionY = +prompt("Y: ");
+        bData[positionX][positionY] = "<td> X </td>";
+        showBoard();
+    }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Từ điển</title>
+</head>
+<style>
+    th{
+        text-align: left;
+    }
+</style>
+<body>
+<form action="">
+    <fieldset>
+        <legend>Từ điển</legend>
+        <table>
+            <tr>
+                <th><label for="inputWord">English</label></th>
+                <td><input type="text" id="inputWord"></td>
+                <td><button onclick="searchWord()" type="button">Tìm kiếm</button></td>
+            </tr>
+            <tr>
+                <th><label for="outputWord">Vietnamese</label></th>
+                <td id="showOut"><input type="text" id="outputWord" disabled="disabled"></td>
+                <td><button onclick="copyWord()" type="button">Copy</button></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+
+<script>
+
+    let dirEnglish = ["fire","dog","cat","bird","love","run","cook","go","head","html","computer","cloud"];
+    let dirVietnamese = ["lửa","con chó","con mèo","con chim","tình yêu","chạy","nấu ăn","đi","đầu","Ngôn ngữ đánh dấu siêu văn bản","máy tính","đám mây"];
+
+    function searchWord(){
+        let input = document.getElementById('inputWord').value;
+        for (let inWord in dirEnglish){
+            if (dirEnglish[inWord] == input){
+                document.getElementById('outputWord').value = dirVietnamese[inWord];
+                return;
+            }
+        }
+        alert("Từ điển không chứa từ này!");
+    }
+
+    function copyWord(){
+
+        alert("Hàm em lỗi không chạy đc :((((")
+        //let valueText = document.getElementById('outputWord');
+
+        //document.getElementById('outputWord').disabled = false;
+        //document.getElementById('outputWord').value = valueText;
+
+        // document.getElementById('outputWord').focus();
+        //document.getElementById('outputWord').select();
+        //valueText.select();
+        //document.execCommand("copy");
+
+        //alert(valueText.value);
+        //document.getElementById('inputWord').select();
+        //document.getElementById('outputWord').disabled = true;
+    }
+</script>
+</body>
+</html>
