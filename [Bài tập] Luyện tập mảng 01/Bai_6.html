@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Bai_6</title>
 </head>
 <body>
-
+<script>
+    let arr = [];
+    for (let i = 0; i < 10; i++){
+        arr[i] = +prompt("Nhập số nguyên bất kì để lưu vào phần tử " + i + " của mảng:");
+    }
+    let V = +prompt("Nhập một phần tử để kiếm tra:");
+    function func(){
+        for (let i of arr){
+            if(V === i){
+                alert(V + " is in the array");
+                return ;
+            }
+        }
+        alert(V + " is not in the array");
+    }
+    func();
+</script>
 </body>
 </html>

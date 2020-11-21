@@ -20,23 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="222264fa-dc5f-4aa6-bf49-617e523c29ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[Bài tập] Tic tac toe.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Tic tac toe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[Bài tập] Ứng dụng vui Faking Textarea on Typing.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Ứng dụng vui Faking Textarea on Typing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +81,7 @@
       <workItem from="1605851971184" duration="11000" />
       <workItem from="1605856490335" duration="608000" />
       <workItem from="1605862684599" duration="126000" />
-      <workItem from="1605925728552" duration="3443000" />
+      <workItem from="1605925728552" duration="10483000" />
     </task>
     <servers />
   </component>
@@ -111,5 +105,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1605755477599" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1605938803597">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1605938803597" />
   </component>
 </project>

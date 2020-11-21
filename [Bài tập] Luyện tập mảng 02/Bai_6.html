@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai_6</title>
+</head>
+<body>
+<script>
+    let arr = [];
+    let aLength = +prompt("Nhập độ dài mảng:");
+    for (let i = 0; i < aLength; i++){
+        arr[i] = prompt("Nhập ký tự bất kì để lưu vào phần tử " + i + " của mảng");
+    }
+    arr.forEach(function (value,index){
+        if (value === "-"){
+            arr.splice(index, 1, '_');
+        }
+    })
+    alert(arr);
+</script>
+</body>
+</html>
