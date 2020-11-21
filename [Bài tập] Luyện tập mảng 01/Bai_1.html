@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>[*Bài tập] Luyện tập mảng 01</title>
+    <title>Bai_1</title>
 </head>
 <body>
+<script>
+    let arr = [10,4,87,10,6,34,10,9,35,10];
+    let bigThen10 = 0, equal10 = 0;
 
+    for (let num of arr){
+        if (num > 10){
+            bigThen10++;
+        }
+        else if (num === 10){
+            equal10++;
+        }
+    }
+
+    alert("Có " + bigThen10 + " số lớn hơn 10" + "\n" + "Có " + equal10 + " số bằng 10")
+</script>
 </body>
 </html>

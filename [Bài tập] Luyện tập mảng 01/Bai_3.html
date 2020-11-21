@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai_3</title>
+</head>
+<body>
+<script>
+    let arr = [10,4,87,10,6,34,10,9,35,10];
+    let max = arr[0];
+    let avg = 0;
+
+    for (let i in arr){
+        if (max < arr[i]){
+            max = arr[i];
+        }
+        avg += arr[i];
+    }
+
+    alert("Array = " + arr + "\n" + "Phần tử có giá trị lớn nhất là " + max + "\n" + "Giá trị trung bình của các phần tử là " + (avg/arr.length))
+</script>
+</body>
+</html>

@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="222264fa-dc5f-4aa6-bf49-617e523c29ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 02/Bai_5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập mảng 01/Bai_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/[Bài tập] Tic tac toe.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Tic tac toe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[Bài tập] Ứng dụng vui Faking Textarea on Typing.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Ứng dụng vui Faking Textarea on Typing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\minh0\WebstormProjects\L13-Array-2\[Bài tập] Luyện tập mảng 01" />
       <recent name="C:\Users\minh0\WebstormProjects\L13-Array-2\[Bài tập] Sử dụng các hàm có sẵn của mảng" />
     </key>
   </component>
@@ -48,12 +82,29 @@
       <updated>1605755000583</updated>
       <workItem from="1605755001679" duration="5643000" />
       <workItem from="1605764667489" duration="13987000" />
-      <workItem from="1605783614315" duration="6970000" />
+      <workItem from="1605783614315" duration="8392000" />
+      <workItem from="1605833248136" duration="2634000" />
+      <workItem from="1605851971184" duration="11000" />
+      <workItem from="1605856490335" duration="608000" />
+      <workItem from="1605862684599" duration="126000" />
+      <workItem from="1605925728552" duration="3443000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1605755477599">

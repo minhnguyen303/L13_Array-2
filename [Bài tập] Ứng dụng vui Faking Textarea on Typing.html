@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>[*Bài tập] Ứng dụng vui Faking Textarea on Typing</title>
 </head>
+<style>
+    h1{
+        text-align: center;
+    }
+    form{
+        margin: 0 auto;
+        padding: 0;
+        width: min-content;
+    }
+</style>
 <body>
-$END$
+
+<script>
+    let a = ['T','Ô','I',' ','L','À',' ','M','Ộ','T',' ','Đ','Ứ','A',' ','N','G','Ố','C','!','!','!'];
+    let n = "";
+    function inputText(){
+        let t = document.textArena.value;
+        let j = t.length;
+        if(j > 0)
+        {
+            for(let i=1; i<=j; i++)
+            {
+                n = n + a[i];
+                if(i == 22)
+                {
+                    document.textArena.value = "";
+                    n = "";
+                }
+            }
+        }
+        document.textArena.value = n;
+        n="";
+        setTimeout("inputText()", 1);
+    }
+</script>
+
+<h1>Type anthing slowly</h1>
+<form action="">
+    <textarea name="textArena" cols="40" rows="10" onkeydown="inputText();"></textarea>
+</form>
+
 </body>
 </html>
